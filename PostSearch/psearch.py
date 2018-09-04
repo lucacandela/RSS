@@ -35,7 +35,7 @@ def run_bot(r):
 			#if submission.url not in config.checkedsubmissions:
 			if sendMessage == True:
 				r.redditor('TropicalMemer').message("Your TSV matched an ESV of " + tsv, submission.url)
-				#message.create(to="+18583421959", from_="+18582950094", 
+				#message.create(to=config.sendto, from_=config.sendfrom, 
 				#			  body=("Your phrase was found here. " + "\""+submission.url+"\""))
 				# |	Find a way to write to the submission url
 				# |	to the config.py file next door and save it
