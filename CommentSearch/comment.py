@@ -36,7 +36,7 @@ def run_bot(r):
 			#if comment.id not in config.checkedsubmissions:
 			if sendMessage == True:
 				r.redditor('TropicalMemer').message(tsv+" found in new comment", commenturl)
-				#message.create(to="+18583421959", from_="+18587042346", 
+				#message.create(to=config.sendto, from_=config.sendfrom, 
 				#			  body=("Your phrase was found here. " + "\""+commenturl+"\""))
 			# |	Find a way to write to the submission url
 			# |	to the config.py file next door and save it
